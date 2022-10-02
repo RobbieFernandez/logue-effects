@@ -3,8 +3,8 @@
 
 #include <simplelfo.hpp>
 
-#define MAX_FREQUENCY 2500
-#define MIN_FREQUENCY 500
+#define MAX_FREQUENCY 1500
+#define MIN_FREQUENCY 250
 
 #define SINE(f) fx_sinf(si_fabsf(f)) * (f < 0 ? -1 : 1)
 
